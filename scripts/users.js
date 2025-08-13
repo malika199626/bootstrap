@@ -29,7 +29,7 @@ const renderUsers = (users) =>{
 
             const emailq = document.createElement("p")
             emailq.classList.add("card-text", "email")
-            emailq.dinnerText = email
+            emailq.innerText = email
 
             cardTwo.append(emailq)
                         
