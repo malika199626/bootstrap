@@ -46,7 +46,7 @@ const renderUsers = (users) =>{
             cardTwo.append(websiteq)
 
             const link = document.createElement("a");
-            link.href = "#";
+            link.href = `pages/user.html?id=${id}`;
             link.classList.add("btn", "btn-primary");
             link.textContent = "Перейти на страницу пользователя";
             cardTwo.append(link);
