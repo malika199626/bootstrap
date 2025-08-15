@@ -19,7 +19,7 @@ fetch(`https://jsonplaceholder.typicode.com/users?id=${id}`).then((rez)=>{
         <p class="card-text">${email}</p>
         <p class="card-text">${phone}</p>
         <p class="card-text">${website}</p></div>
-        
+        <div><h5 class="card-title"> Посты пользователя (10)</h5></div>
         `
 )})
 .catch(()=>(containerone.innerHTML=`сервер не отвечает`))
