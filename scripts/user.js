@@ -41,7 +41,7 @@ fetch(`https://jsonplaceholder.typicode.com/posts?userId=${id}`).then((res)=>{
           <div class="card-body">
             <h5 class="card-title">${title.length>20? title.substring(0,20) + "..." : title}</h5>
             <p class="card-text">${body.length>100? body.substring(0,100) + "..." : body}</p>
-            <a href="pages/post.html?id=${id}" class="btn btn-primary">
+            <a href="post.html?id=${id}" class="btn btn-primary">
             Go somewhere
             </a>
           </div>
